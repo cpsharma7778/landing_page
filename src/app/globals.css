@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom global styles */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+h1, h2, h3, h4 {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+
+p {
+  margin-bottom: 1.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.hero-image {
+  background-image: url('./assets/images/main.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.banner-image {
+  background-image: url('./assets/images/banner.svg');
+  background-size: fill;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+.screening-background {
+  background-image: url('./assets/images/Maskgroup.svg');
+  background-size: cover;
+  background-position: center;
+}
+
+.custom-bg {
+  background-color: rgba(17, 17, 17, 0.5);
+}
+
+.custom-br {
+  border-color: rgba(51, 51, 51, 1);
+}
+
+/* .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+} */
